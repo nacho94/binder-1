@@ -1,1 +1,1 @@
-FROM claudiaalvarezaparicio/brittany:kinetic
+FROM claudiaalvarezaparicio/brittany:github
