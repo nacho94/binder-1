@@ -16,5 +16,5 @@ RUN adduser --disabled-password \
 WORKDIR ${HOME}
 USER ${USER}
 
-COPY script.sh /home/${NB_USER}/script.sh
+COPY test.py /home/${NB_USER}/test.py
 RUN python test.py one two three four
