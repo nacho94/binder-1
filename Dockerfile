@@ -1,6 +1,6 @@
 FROM claudiaalvarezaparicio/brittany:github
 
-USER ROOT 
+USER root 
 RUN apt-get install -y python-pip
 RUN pip install --no-cache-dir notebook==5.*
 
