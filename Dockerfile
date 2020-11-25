@@ -15,3 +15,6 @@ RUN adduser --disabled-password \
     ${NB_USER}
 WORKDIR ${HOME}
 USER ${USER}
+
+COPY script.sh /home/${NB_USER}
+ENTRYPOINT ["/home/${NB_USER}/script.sh"]
