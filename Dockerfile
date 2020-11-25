@@ -17,5 +17,4 @@ WORKDIR ${HOME}
 USER ${USER}
 
 COPY script.sh /home/${NB_USER}/script.sh
-CMD ["/bin/sh", "/home/${NB_USER}/script.sh"]
-RUN echo "Hola"
+RUN python test.py one two three four
